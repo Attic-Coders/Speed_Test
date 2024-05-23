@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.timer {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+

@@ -18,9 +18,9 @@ function exitGame() {
 // Add event listeners to the buttons
 document.addEventListener("DOMContentLoaded", function() {
     // Get references to the buttons
-    var playButton = document.querySelector(".button[href='GAME.html']");
-    var backButton = document.querySelector(".button[href='MENU.html']");
-    var exitButton = document.querySelector(".button[href='EXIT.html']");
+    var playButton = document.querySelector(".button[href='../game/GAME.html']");
+    var backButton = document.querySelector(".button[href='../menu/MENU.html']");
+    var exitButton = document.querySelector(".button[href='EXIT.js']");
 
     // Attach event listeners
     playButton.addEventListener("click", playGame);
