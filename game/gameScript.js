@@ -48,9 +48,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // word processor
 function processFile() {
-    const fileInput = document.getElementById('fileInput');
-    const file = fileInput.files[0]; // Get the first file selected by the user
-    if (file) {
+    const fs = require('fs')
+    fs.readFile('allWords.txt', (err, inputD) => {
+   
+    })
+    if (fs) {
         const reader = new FileReader();
 
         reader.onload = function(e) {
