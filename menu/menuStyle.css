@@ -10,9 +10,9 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,56,121,1) 35%, rgba(89,94,73,1) 54%, rgba(0,219,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,56,121,1) 57%, rgba(0,201,255,1) 100%, rgba(89,94,73,1) 100%);
     color: #333;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -24,10 +24,12 @@ body {
 /* Style for the header section */
 header {
 
-    color: #11a4b5;
-    padding: 20px 0;
-    margin-bottom: 20px;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
+
+
 
 /* Button styles */
 .button {
