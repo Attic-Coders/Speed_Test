@@ -1,15 +1,11 @@
-body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,56,121,1) 57%, rgba(0,201,255,1) 100%, rgba(89,94,73,1) 100%);
-  
-}
+
 
 .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,56,121,1) 57%, rgba(0,201,255,1) 100%, rgba(89,94,73,1) 100%);
+    
+  
 }
 
 .button {
@@ -41,6 +37,6 @@ body {
     font-size: 1.5em;
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: blue;
 }
 
